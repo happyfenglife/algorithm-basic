@@ -40,7 +40,7 @@ class Solution {
     }
 
     while (p1 <= M && p2 <= R) {
-      aux[i++] = (v[p1] < v[p2] ? v[p1++] : v[p2++]);
+      aux[i++] = (v[p1] <= v[p2] ? v[p1++] : v[p2++]);
     }
 
     while (p1 <= M)
