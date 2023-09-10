@@ -147,6 +147,8 @@ int main()
     {
       cout << "Oops!\n";
     }
+
+    delete head;
   }
 
   cout << "finish\n";
